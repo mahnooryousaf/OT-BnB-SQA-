@@ -1,0 +1,16 @@
+Welcome to OT-Bnb!
+Number of current users: 18
+Number of available rental units: 4
+Please enter Login to begin or Quit to exit: 
+Please enter your username: 
+INVALID USERNAME: Username cannot be longer than 15 characters
+Please enter username: 
+INVALID USERNAME: Username cannot be blank
+Please enter username: 
+INVALID USERNAME: Username can only contain alphabets, numbers, spaces, underscores and dashes
+Please enter username: 
+Welcome User2
+Please enter a function: 
+Logout Successful. Goodbye
+Please enter Login to begin or Quit to exit: 
+Exiting program. Goodbye.

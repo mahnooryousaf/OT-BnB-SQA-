@@ -1,0 +1,17 @@
+Welcome to OT-Bnb!
+Number of current users: 18
+Number of available rental units: 4
+Please enter Login to begin or Quit to exit: 
+INVALID REQUEST. Login first!
+Please enter Login to begin or Quit to exit: 
+INVALID REQUEST. Login first!
+Please enter Login to begin or Quit to exit: 
+INVALID REQUEST. Login first!
+Please enter Login to begin or Quit to exit: 
+INVALID REQUEST. Login first!
+Please enter Login to begin or Quit to exit: 
+INVALID REQUEST. Login first!
+Please enter Login to begin or Quit to exit: 
+INVALID REQUEST. Login first!
+Please enter Login to begin or Quit to exit: 
+Exiting program. Goodbye.

@@ -1,0 +1,9 @@
+Login
+Admin11
+Rent
+13335678
+20
+14
+Y
+Logout
+Quit

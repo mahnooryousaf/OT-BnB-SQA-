@@ -1,0 +1,23 @@
+Welcome to OT-Bnb!
+Number of current users: 18
+Number of available rental units: 4
+Please enter Login to begin or Quit to exit: 
+Please enter your username: 
+Welcome Admin11
+Please enter a function: 
+Enter the rental unit ID: 
+Rental unit with this ID is not available. Try again.
+Enter the rental unit ID: 
+Rental ID found.
+City: Bowmanville
+Number of bedrooms: 4
+Price: 600.000000
+Username: Admin11        
+How many nights would like to rent it for:
+Total price for 4 is: 2400.0
+Confirm booking? (y/n)
+Booking confirmed for rental id:13345678
+Please enter a function: 
+Logout Successful. Goodbye
+Please enter Login to begin or Quit to exit: 
+Exiting program. Goodbye.

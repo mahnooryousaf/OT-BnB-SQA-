@@ -1,0 +1,1412 @@
+added manifest
+adding: Create.class(in = 1034) (out= 570)(deflated 44%)
+adding: Delete.class(in = 603) (out= 398)(deflated 33%)
+adding: Home.class(in = 1632) (out= 1020)(deflated 37%)
+adding: Login.class(in = 1291) (out= 718)(deflated 44%)
+adding: Logout.class(in = 410) (out= 290)(deflated 29%)
+adding: Post.class(in = 2212) (out= 1190)(deflated 46%)
+adding: Rent.class(in = 2468) (out= 1418)(deflated 42%)
+adding: Search.class(in = 2421) (out= 1326)(deflated 45%)
+adding: Transaction.class(in = 196) (out= 160)(deflated 18%)
+adding: UserAccountsFileReader.class(in = 1747) (out= 945)(deflated 45%)
+adding: User.class(in = 1432) (out= 767)(deflated 46%)
+[1mGROUP: CREATE/[37m
+[1mRunning Test: create1
+
+
+[31mTerminal Output Is Not Correct[37m
+1,16c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome Admin1:
+< Please Enter a function:
+< Please Enter a username:
+< User1
+< Please Enter an account type:
+< Account Type: Rent-Standard
+< Please enter Rental ID: 9021
+< # Nights Rented: 4
+< User Created:
+< Please Enter a function:
+< Logout Successful
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: create2
+
+
+[31mTerminal Output Is Not Correct[37m
+1,25c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome: Admin2
+< Please Enter a function:
+< Please Enter a username:
+< INVALID USERNAME: Username cannot be longer than 15 characters
+< Re-enter username:
+< INVALID USERNAME: Username cannot be blank
+< Re-enter username:
+< INVALID USERNAME: Username can only contain alphabets, numbers, spaces, underscores and dashes
+< Re-enter username:
+< User_09876
+< Please Enter an account type:
+< Account Type: Rent-Standard
+< Please enter Rental ID:
+< Rental ID: 9089
+< Please confirm these choices(Y/n):
+< User Created:
+< Please Enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: create3
+
+
+[31mTerminal Output Is Not Correct[37m
+1,13c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome Admin3:
+< Please Enter a function:
+< Please Enter a username:
+< That username is already in use.
+< Please Enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: create4
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome User_Admin90.
+< Please Enter a function:
+< Please Enter a username:
+< User_078987
+< Please Enter an account type:
+< Account Type: Rent-Standard
+< Please enter Rental ID: 878
+< # Nights Rented: 5
+< User Created!
+< Please Enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: create5
+
+
+[31mTerminal Output Is Not Correct[37m
+1,12c1,10
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome User_FS.
+< Please Enter a function:
+< Invalid request. Need to be an Admin to Create a user.
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Please enter an unique username
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: create6
+
+
+[31mTerminal Output Is Not Correct[37m
+1,12c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome User_RS.
+< Please Enter a function:
+< Invalid request. Need to be an Admin to Create a user.
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: create7
+
+
+[31mTerminal Output Is Not Correct[37m
+1,12c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome User_PS.
+< Please Enter a function:
+< Invalid request. Need to be an Admin to Create a user.
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: create8
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+< Enter username:
+< Welcome Admin8:
+< Please Enter a function:
+< Please Enter a username:
+< User8
+< Please Enter an account type:
+< Account Type: Rent-Standard
+< Please enter Rental ID: 9880
+< # Nights Rented: 2
+< User Created:
+< Please Enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+
+
+
+[1mGROUP: DELETE/[37m
+[1mRunning Test: delete1
+
+
+[31mTerminal Output Is Not Correct[37m
+1,4c1,9
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+6,13d10
+< Welcome Admin10:
+< Please Enter a function:
+< Please Enter a username:
+< User4 has outstanding rental. Confirm delete (y/n):
+< User4 has been deleted
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: delete2
+
+
+[31mTerminal Output Is Not Correct[37m
+1,4c1,9
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+6,12d10
+< Welcome User5:
+< Please Enter a function:
+< Invalid request. Need to be an Admin to Delete a user.
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: delete3
+
+
+[31mTerminal Output Is Not Correct[37m
+1,4c1,9
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+6,12d10
+< Welcome Admin9:
+< Please Enter a function:
+< Please Enter a username:
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: delete4
+
+
+[31mTerminal Output Is Not Correct[37m
+1,4c1,9
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+6,13d10
+< Welcome Admin9:
+< Please Enter a function:
+< Please Enter a username:
+< User0 has been deleted
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: delete5
+
+
+[31mTerminal Output Is Not Correct[37m
+1,4c1,9
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin: 
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+6,13d10
+< Welcome Admin9:
+< Please Enter a function:
+< Please Enter a username:
+< Invalid request. Can not Delete current user
+< Please enter a function:
+< Logout Successful
+< Exiting program…
+< (Program ends)
+[32mDaily Transactions File Matches[37m
+
+
+
+
+
+[1mGROUP: LOGIN/[37m
+[1mRunning Test: login1
+
+
+[31mTerminal Output Is Not Correct[37m
+1,8c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin:
+< Enter username:
+< Welcome: User2
+< Logout.
+< Rental Unit Created Successfully.
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: login2
+
+
+[31mTerminal Output Is Not Correct[37m
+1,12c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin:
+< Enter username:
+< INVALID USERNAME: Username cannot be longer than 15 characters
+< INVALID USERNAME: Username cannot be blank
+< INVALID USERNAME: Username can only contain alphabets, numbers, spaces, underscores and dashes
+< Welcome: User2
+< Logout.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: login3
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin:
+< INVALID REQUEST. Login first!
+< INVALID REQUEST. Login first!
+< INVALID REQUEST. Login first!
+< INVALID REQUEST. Login first!
+< Exiting program…
+< (Program ends)
+< 
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin:
+< Logout.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter an unique username
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: login4
+
+
+[31mTerminal Output Is Not Correct[37m
+1,13c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin:
+< Enter username:
+< Welcome: User4
+< Please Enter a function:
+< Enter Username:
+< User already logged in:
+< Please Enter a function:
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: login5
+
+
+[31mTerminal Output Is Not Correct[37m
+1,8c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin:
+< Enter username:
+< Welcome Admin5:
+< Please Enter a function:
+< Logout Successful
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: login6
+
+
+[31mTerminal Output Is Not Correct[37m
+1,8c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin:
+< Enter username:
+< Welcome Admin6:
+< Please Enter a function:
+< Logout Successful.
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+
+
+
+[1mGROUP: POST/[37m
+[1mRunning Test: post10
+
+
+[31mTerminal Output Is Not Correct[37m
+1,28c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit:
+< Enter username: 
+< Welcome UPost
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: PICKERING.
+< Please Enter rental price per night:
+< Price: $400 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 5.
+< Rental Unit #12340000  Created Successfully.
+< 
+< Please Enter a function:
+< What city would you like to rent in:
+< What is the maximum price you are willing to pay per night($): 
+< What is the minimum number of rooms you require: 
+< Here are all available rental units that match your search: 
+< —matched info that does not contain newly posted rental unit here—
+< 
+< Please enter a function:
+< Logout successful.
+< 
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post1
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: TORONTO.
+< Please Enter rental price per night:
+< Price: $100 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 3.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post2
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: TORONTO.
+< Please Enter rental price per night:
+< Price: $100 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 3.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post3
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: TORONTO.
+< Please Enter rental price per night:
+< Price: $100 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 3.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post4
+
+
+[31mTerminal Output Is Not Correct[37m
+1,20c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: TORONTO.
+< Please Enter rental price per night:
+< Price: $100 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 3.
+< Would you like to set the Rental unit to True or False:
+< Rental Flag = False.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post5
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: PICKERING.
+< Please Enter rental price per night:
+< Price: $100 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 3.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post6
+
+
+[31mTerminal Output Is Not Correct[37m
+1,19c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: PICKERING.
+< Please Enter rental price per night:
+< ERROR! Price Exceeds Maximum. Try again: 
+< Price: $999.99 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 3.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post7
+
+
+[31mTerminal Output Is Not Correct[37m
+1,19c1,8
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< ERROR: City name exceeds max characters. Try again:
+< CITY NAME: Mississauga.
+< Please Enter rental price per night:
+< Price: $205 /night.
+< Please Enter # of bedrooms:
+< Bedrooms: 5.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Please enter the name of the city:
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post8
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: PICKERING.
+< Please Enter rental price per night:
+< Price: $400 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 12.
+< ERROR! Rental Units can only have up to 9 bedrooms.
+< Please enter a function:
+< Logout Successful.
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: post9
+
+
+[31mTerminal Output Is Not Correct[37m
+1,52c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit: 
+< Enter username: 
+< Welcome URent:
+< Please Enter a function:
+< INVALID USERTYPE: Rent-standard user cannot post
+< Please Enter a function: 
+< Logout Successful
+< 
+< Enter username: 
+< Welcome UPost
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: PICKERING.
+< Please Enter rental price per night:
+< Price: $400 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 5.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful
+< 
+< Enter username: 
+< Welcome UFull:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: PICKERING.
+< Please Enter rental price per night:
+< Price: $400 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 5.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful
+< 
+< Enter username: 
+< Welcome Admin:
+< Please Enter a function:
+< Please enter the name of the City:
+< CITY NAME: PICKERING.
+< Please Enter rental price per night:
+< Price: $400 /night
+< Please Enter # of bedrooms:
+< Bedrooms: 5.
+< Rental Unit Created Successfully.
+< Please Enter a function: 
+< Logout Successful
+< 
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+
+
+
+[1mGROUP: QUIT/[37m
+[1mRunning Test: quit1
+
+
+[31mTerminal Output Is Not Correct[37m
+1,7c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit: 
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Exiting program. Goodbye.
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: quit2
+
+
+[31mTerminal Output Is Not Correct[37m
+1,6c1,4
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit: 
+< Welcome User7
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+8,17c6,12
+< Logout successful
+< 
+< 
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit:
+< Exiting program…
+< (Program ends)
+---
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Logout Successful. Goodbye
+> Please enter a function: 
+> Exiting program. Goodbye.
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: quit3
+
+
+[31mTerminal Output Is Not Correct[37m
+1,17c1,12
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit: 
+< Welcome Admin12
+< Please enter a function: Logout
+< Logout successful
+< 
+< 
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit:
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Logout Successful. Goodbye
+> Please enter a function: 
+> Exiting program. Goodbye.
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: quit4
+
+
+[31mTerminal Output Is Not Correct[37m
+1,6c1,4
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit: 
+< Welcome User7
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+8,9c6
+< Invalid request. Cannot Quit program while logged into an account. Please log out and try again. 
+< 
+---
+> Access Denied. Please pick a defined function
+11,20c8,10
+< Logout successful
+< 
+< 
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit:
+< Exiting program…
+< (Program ends)
+---
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Exiting program. Goodbye.
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: quit5
+
+
+[31mTerminal Output Is Not Correct[37m
+1,6c1,4
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit: 
+< Welcome Admin12
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+8,9c6
+< Invalid request. Cannot Quit program while logged into an account. Please log out and try again. 
+< 
+---
+> Access Denied. Please pick a defined function
+11,20c8,10
+< Logout successful
+< 
+< 
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit:
+< Exiting program…
+< (Program ends)
+---
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Exiting program. Goodbye.
+[32mDaily Transactions File Matches[37m
+
+
+
+
+
+[1mGROUP: RENT/[37m
+[1mRunning Test: rent1
+
+
+[31mTerminal Output Is Not Correct[37m
+1,12c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< 
+< Please Enter Login to begin or Quit to exit:
+< Welcome UPost
+< Please Enter a function:
+< 
+< INVALID User type: Post-standard users cannot rent. Try again with a valid account.
+< 
+< Please Enter a function:
+< Logout Successful.
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: rent2
+
+
+[31mTerminal Output Is Not Correct[37m
+1,14c1,6
+< Welcome to OT-Bnb:
+< X users exist
+< Y rental units available
+< Please Enter Login to begin or Quit to exit:
+< Welcome User8
+< Please enter the rental id of the unit:
+< Rent per night for unit #12345678 is $400
+< 
+< How many nights will you rent this unit for?
+< Total cost is $800
+< Please confirm this transaction (Y/n):
+< Transaction confirmed! 
+< Please Enter a function:
+< Logout successful
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: rent3
+
+
+[31mTerminal Output Is Not Correct[37m
+1,12c1,6
+< Welcome to OT-Bnb:
+< Please Enter Login to begin or Quit to exit:
+< Welcome Admin12
+< Please enter the rental id of the unit:
+< Rent per night for unit #12345679 is $400
+< 
+< How many nights will you rent this unit for?
+< Total cost is $800
+< Please confirm this transaction (Y/n):
+< Transaction confirmed! 
+< Please Enter a function:
+< Logout successful
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: rent4
+
+
+[31mTerminal Output Is Not Correct[37m
+1,16c1,6
+< Welcome to OT-Bnb:
+< Please Enter Login to begin or Quit to exit:
+< Welcome Admin12
+< Please enter the rental id of the unit:
+< Unit #12345679 is unavailable. Please try again with available rental id:
+< 
+< Please enter the rental id of the unit:
+< Rent per night for unit #12345689 is $400
+< 
+< How many nights will you rent this unit for?
+< Total cost is $800
+< Please confirm this transaction (Y/n):
+< Transaction confirmed! 
+< Please Enter a function:
+< Logout successful
+< 
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: rent5
+
+
+[31mTerminal Output Is Not Correct[37m
+1,18c1,6
+< Welcome to OT-Bnb:
+< Please Enter Login to begin or Quit to exit:
+< Welcome Admin12
+< Please enter the rental id of the unit:
+< Unit #12345679 is unavailable. Please try again with available rental id:
+< 
+< Please enter the rental id of the unit:
+< Rent per night for unit #12345689 is $400
+< 
+< How many nights will you rent this unit for?
+< Invalid request. Rental units can be booked for not more than 14 days at a time. Please try again with a valid number of nights.
+< 
+< How many nights will you rent this unit for?
+< Total cost is $5600
+< Please confirm this transaction (Y/n):
+< Transaction confirmed! 
+< Please Enter a function:
+< Logout successful
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Please enter your username: 
+[32mDaily Transactions File Matches[37m
+
+
+
+
+
+[1mGROUP: SEARCH/[37m
+[1mRunning Test: search1
+
+
+[32m Terminal Output Matches[37m
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: search2
+
+
+[32m Terminal Output Matches[37m
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: search3
+
+
+[32m Terminal Output Matches[37m
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: search4
+
+
+[32m Terminal Output Matches[37m
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: search5
+
+
+[32m Terminal Output Matches[37m
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: search6
+
+
+[32m Terminal Output Matches[37m
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: search7
+
+
+[32m Terminal Output Matches[37m
+[32mDaily Transactions File Matches[37m
+
+
+
+
+
+[1mGROUP: START/[37m
+[1mRunning Test: start1
+
+
+[31mTerminal Output Is Not Correct[37m
+1,11c1,8
+< Welcome to OT-Bnb:
+< 18 users exist
+< 1 rental units available
+< Please Enter Login to begin:
+< Exiting program…
+< (Program ends)
+< 
+< Welcome to OT-Bnb:
+< No user accounts found
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Exiting program. Goodbye.
+[32mDaily Transactions File Matches[37m
+
+
+[1mRunning Test: start2
+
+
+[31mTerminal Output Is Not Correct[37m
+1,11c1,8
+< Welcome to OT-Bnb:
+< 18 users exist
+< 1 rental units available
+< Please Enter Login to begin:
+< Exiting program…
+< (Program ends)
+< 
+< Welcome to OT-Bnb:
+< No rental units found
+< Exiting program…
+< (Program ends)
+---
+> Welcome to OT-Bnb!
+> Number of current users: 0
+> Number of available rental units: 0
+> Please enter Login to begin or Quit to exit: 
+> Please enter a function: 
+> Access Denied. Please pick a defined function
+> Please enter a function: 
+> Exiting program. Goodbye.
+[32mDaily Transactions File Matches[37m
+
+
+
+
+

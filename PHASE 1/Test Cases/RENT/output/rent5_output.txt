@@ -1,0 +1,23 @@
+Welcome to OT-Bnb!
+Number of current users: 18
+Number of available rental units: 4
+Please enter Login to begin or Quit to exit: 
+Please enter your username: 
+Welcome Admin11
+Please enter a function: 
+Enter the rental unit ID: 
+Rental ID found.
+City: Bowmanville
+Number of bedrooms: 4
+Price: 700.000000
+Username: UFull          
+How many nights would like to rent it for:
+Invalid request. Rental units can be booked for not more than 14 days at a time. Please try again with a valid number of nights.
+How many nights would like to rent it for:
+Total price for 14 is: 9800.0
+Confirm booking? (y/n)
+Booking confirmed for rental id:13335678
+Please enter a function: 
+Logout Successful. Goodbye
+Please enter Login to begin or Quit to exit: 
+Exiting program. Goodbye.

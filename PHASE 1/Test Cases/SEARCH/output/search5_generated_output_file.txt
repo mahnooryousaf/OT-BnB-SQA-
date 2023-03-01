@@ -1,0 +1,16 @@
+Welcome to OT-Bnb!
+Number of current users: 18
+Number of available rental units: 4
+Please enter Login to begin or Quit to exit: 
+Please enter your username: 
+Welcome User5
+Please enter a function: 
+What city would you like to find a rental unit in:
+What is the maximum price you are willing to pay:
+What is the minimum number of rooms you require:
+Here are the available rental units with your preferred features
+There are 0 units with matching search
+Please enter a function: 
+Logout Successful. Goodbye
+Please enter Login to begin or Quit to exit: 
+Exiting program. Goodbye.

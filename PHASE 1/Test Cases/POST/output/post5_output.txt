@@ -1,0 +1,18 @@
+Welcome to OT-Bnb!
+Number of current users: 18
+Number of available rental units: 4
+Please enter Login to begin or Quit to exit: 
+Please enter your username: 
+Welcome Admin11
+Please enter a function: 
+Please enter the name of the city:
+What is the rental price per night in dollars:
+What is the number of bedrooms at this unit:
+Rental unit id: 13345679
+City:Pickering
+Price per night:100.0
+Number of bedrooms:3
+Please enter a function: 
+Logout Successful. Goodbye
+Please enter Login to begin or Quit to exit: 
+Exiting program. Goodbye.
